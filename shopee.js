@@ -32,5 +32,3 @@ document.addEventListener('click', function(e) {
     iframepopupwidow(); // Call the iframepopupwidow function to create the popunder window
   }
 });
-
-<input name="openpopunder" id="openpopunder" value="YES" type="hidden">
