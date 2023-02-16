@@ -33,4 +33,3 @@ document.addEventListener('click', function(e) {
   }
 });
 </script>
-<input name="openpopunder" id="openpopunder" value="YES" type="hidden">
