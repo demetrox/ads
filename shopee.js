@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
   // Define the $.popunder function to create a popunder window with a random name and certain options
 function popunder(url) {
   var popName = 'popunder_' + Math.floor(Math.random() * 100000); // Generate a random name for the popunder window
@@ -32,4 +32,4 @@ document.addEventListener('click', function(e) {
     iframepopupwidow(); // Call the iframepopupwidow function to create the popunder window
   }
 });
-</script>
+
