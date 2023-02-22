@@ -21,7 +21,7 @@
   // Define the iframepopupwidow function to set the value of an input element to "NO" and call the $.popunder function with a hardcoded URL
   function iframepopupwidow() {
     document.getElementById('openpopunder').value = 'NO'; // Set the value of the openpopunder input element to "NO"
-    popunder('https://klik.theklasik.com/redeem-koin'); // Call the $.popunder function with the hardcoded URL
+    popunder('https://xtra.theklasik.com/CMff'); // Call the $.popunder function with the hardcoded URL
   }
 
   // Define the onclick event listener for the document object
