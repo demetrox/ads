@@ -1,4 +1,5 @@
-<script>
+<script type="text/javascript">
+
 var lastExecutionTime = localStorage.getItem("lastExecutionTime");
 var currentTime = new Date().getTime();
 
