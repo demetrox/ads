@@ -1,10 +1,8 @@
-<script type="text/javascript">
-
+<script type="975a66e2cf69ea3d18b60e3c-text/javascript">
 var lastExecutionTime = localStorage.getItem("lastExecutionTime");
 var currentTime = new Date().getTime();
 
 if (lastExecutionTime && currentTime - lastExecutionTime < 3600000) {
-  // Script has already run within the past hour, exit the script
   console.log("Script has already run in the past hour.");
 } else {
   var links = [
@@ -21,7 +19,6 @@ if (lastExecutionTime && currentTime - lastExecutionTime < 3600000) {
     window.location = links[randomIndex];
   }, 15000);
 
-  // Store the current time in the local storage
   localStorage.setItem("lastExecutionTime", currentTime.toString());
 }
 </script>
