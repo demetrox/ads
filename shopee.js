@@ -1,4 +1,3 @@
-<script type="975a66e2cf69ea3d18b60e3c-text/javascript">
 var lastExecutionTime = localStorage.getItem("lastExecutionTime");
 var currentTime = new Date().getTime();
 
@@ -21,4 +20,3 @@ if (lastExecutionTime && currentTime - lastExecutionTime < 3600000) {
 
   localStorage.setItem("lastExecutionTime", currentTime.toString());
 }
-</script>
