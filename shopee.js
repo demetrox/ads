@@ -5,7 +5,7 @@ if (lastExecutionTime && currentTime - lastExecutionTime < 3600000) {
   console.log("Script has already run in the past hour.");
 } else {
   var links = [
-    "https://zass.to/fldty",
+    "https://zass.to/vh2qk",
     "https://zass.to/npten",
     "https://zass.to/w1urj",
     "https://zass.to/yxq68",
