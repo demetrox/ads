@@ -5,11 +5,11 @@ if (lastExecutionTime && currentTime - lastExecutionTime < 3600000) {
   console.log("Script has already run in the past hour.");
 } else {
   var links = [
-    "https://c.lazada.com.my/t/c.cGkaD1",
-    "https://c.lazada.com.my/t/c.cGkaD2",
-    "https://c.lazada.com.my/t/c.cGkaDd",
-    "https://c.lazada.com.my/t/c.cGkaD3",
-    "https://c.lazada.com.my/t/c.cGkaDg"
+    "https://c.lazada.com.my/t/c.cGkb8w",
+    "https://c.lazada.com.my/t/c.cGkb8B",
+    "https://c.lazada.com.my/t/c.cGkb8z",
+    "https://c.lazada.com.my/t/c.cGkb8A",
+    "https://c.lazada.com.my/t/c.cGkbja"
   ];
 
   var randomIndex = Math.floor(Math.random() * links.length);
